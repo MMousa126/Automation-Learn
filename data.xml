@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Page Test Cases">
+
+    <parameter name="browser" value="firefox"/>
+    <parameter name="URL" value="https://www.facebook.com/"/>
+
+    <test name="Login">
+        <classes>
+            <class name="T01_LoginPage">
+                <parameter name="valid_username" value="youremail@gmail.com"/>
+                <parameter name="valid_password" value="yourPassword"/>
+                <parameter name="actual_URL" value="https://www.facebook.com/"/>
+                <parameter name="noOfSeconds" value="4"/>
+            </class>
+        </classes>
+    </test>
+</suite>

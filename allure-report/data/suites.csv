@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"This is a valid login Test Case","13635","validLoginusingjsonfile","Default Suite","Sat Aug 03 20:14:37 EEST 2024","passed","Sat Aug 03 20:14:51 EEST 2024","T01_LoginPage","POM_DesignPattern_secondStepUpdate","T01_LoginPage","validLoginusingjsonfile"
